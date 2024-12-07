@@ -1,0 +1,21 @@
+.circle-one {
+  position: absolute;
+  height: 1.8rem;
+  width: 1.8rem;
+  background: linear-gradient(to top right, #007bff, #003a79);
+  z-index: -1;
+  border-radius: 1.5rem;
+  left: 19.5rem;
+  top: 2rem;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.29));
+}
+.circle-two {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background: linear-gradient(to bottom, rgb(254, 136, 0), rgb(200, 23, 0));
+  border-radius: 1.5rem;
+  bottom: -5rem;
+  left: -1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.674);
+}

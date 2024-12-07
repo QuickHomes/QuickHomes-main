@@ -1,0 +1,94 @@
+.second-page p {
+  font-size: 4rem;
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+}
+.textbox-two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/pattern-bg-small.jpg);
+}
+.house-options {
+  padding: 2rem 2rem;
+  columns: 15rem;
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: 2rem; */
+  /* row-gap: 2rem; */
+}
+.option {
+  margin-bottom: 2rem;
+}
+.img-box {
+  position: relative;
+  height: 30rem;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+
+  /* object-fit: cover; */
+}
+.img-box img {
+  border-radius: 10px;
+
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+.info {
+  height: 5rem;
+  width: 98%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.583);
+  /* background-color: rgba(0, 0, 0, 0.658); */
+  bottom: 0;
+  font-size: 1rem;
+  padding: 0 0 0.5rem 0.5rem;
+  backdrop-filter: blur(3px);
+}
+.info p {
+  color: rgb(0, 1, 52);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.info p:first-child {
+  font-size: 1rem;
+  font-family: 'Poppins';
+  margin-bottom: 0.2rem;
+}
+.info p:nth-child(2) {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+.info p:nth-child(3) {
+  color: rgb(254, 136, 0);
+  font-size: 0.8rem;
+  display: inline;
+  /* margin-right: 13rem; */
+}
+.info p:nth-child(4) {
+  display: inline;
+  font-size: 0.8rem;
+  cursor: pointer;
+  position: absolute;
+  right: -6rem;
+  bottom: 0.5rem;
+}
+
+.info p span {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.695));
+}
+footer {
+  background-color: black;
+  color: white;
+}
