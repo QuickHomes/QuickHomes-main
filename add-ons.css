@@ -19,3 +19,12 @@
   left: -1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.674);
 }
+@media screen and (max-width: 768px) {
+  .circle-one {
+    display: none;
+  }
+
+  .circle-two {
+    display: none;
+  }
+}
