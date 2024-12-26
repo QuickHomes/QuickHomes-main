@@ -23,13 +23,11 @@
   height: 30rem;
   border-radius: 10px;
   border: 0.2rem solid #007bff;
-
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 .img-box img {
   border-radius: 10px;
-
-  height: 30rem;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
@@ -46,7 +44,6 @@
   font-size: 1rem;
   padding: 0 0 0.5rem 0.5rem;
   backdrop-filter: blur(3px);
-  /* padding-left: 0.1rem; */
 }
 .info p {
   color: rgb(0, 1, 52);
