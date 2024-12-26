@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer-content {
   position: absolute;
   bottom: relative;
@@ -50,3 +51,57 @@
   grid-column: 1 / -1;
   text-align: center;
 }
+=======
+.footer-content {
+  position: absolute;
+  bottom: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  background-color: black;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section h3 {
+  color: rgb(11, 135, 135);
+}
+.footer-bottom p {
+  color: white;
+}
+.social-links a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.newsletter-form input {
+  padding: 5px;
+}
+.newsletter-form button {
+  border: none;
+  padding: 0.2rem 2rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.newsletter-form button:hover {
+  background-color: #007bff;
+  color: white;
+}
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: max-content;
+}
+.footer-bottom {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+>>>>>>> 5ba25e2810bb8987ebafba249eb74b2ee7b514e4
